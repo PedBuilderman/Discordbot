@@ -63,4 +63,4 @@ async def on_message(message):
 
 # --- Run Bot ---
 # Make sure to set DISCORD_TOKEN in your Render Environment Variables
-bot.run(os.environ.get("DISCORD_TOKEN"))
+bot.run("MTU1Mzk5NDg0NjA5ODgxNzIwOA.G-zodC.aqoq2qy-vQEKorECZJsBz7ApR9cN8SKcaz4P1w
