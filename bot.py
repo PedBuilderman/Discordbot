@@ -61,7 +61,6 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-# REPLACE WITH YOUR ACTUAL BOT TOKEN INSIDE QUOTE)
-
-# Replace with your actual Bot Token from Discord Developer Portal
-bot.run("MTU1Mzk5NDg0NjA5ODgxNzIwOA.G-zodC.aqoq2qy-vQEKorECZJsBz7ApR9cN8SKcaz4P1w")
+# --- Run Bot ---
+# Make sure to set DISCORD_TOKEN in your Render Environment Variables
+bot.run(os.environ.get("DISCORD_TOKEN"))
